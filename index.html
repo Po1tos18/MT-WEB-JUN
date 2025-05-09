@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DAY NOTES</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>DAY NOTES</h1>
+    
+    <div id="notesList"></div>
+
+    <div class="bulk-actions">
+        <button id="deleteAll">Видалити всі нотатки</button>
+        <button id="archiveAll">Архівувати всі нотатки</button>
+    </div>
+
+    <form id="noteForm">
+        <input type="text" id="noteTitle" placeholder="Заголовок" required />
+        <textarea id="noteText" placeholder="Текст нотатки" required></textarea>
+        <button type="submit">Додати нотатку</button>
+    </form>
+
+  
+</body>
+
+</html>
